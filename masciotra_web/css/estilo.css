@@ -1,0 +1,159 @@
+/* --------- INICIO ----------- */
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(../img/index_inicio.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+header{
+    display: flex;
+    height: 70;
+    background-color: rgba(76, 76, 76, 0.666);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 90; height: 90;
+    margin: 5px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10;
+}
+
+nav a:hover{
+    color: rgba(128, 80, 190, 0.869);
+}
+
+/* --------- EVENTOS ----------- */
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+header{
+    display: flex;
+    height: 70;
+    background-color: rgba(76, 76, 76, 0.666);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 90; height: 90;
+    margin: 5px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10;
+}
+
+nav a:hover{
+    color: rgba(128, 80, 190, 0.869);
+}
+
+/* --------- PRODUCTOS ----------- */
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+header{
+    display: flex;
+    height: 70;
+    background-color: rgba(76, 76, 76, 0.666);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 90; height: 90;
+    margin: 5px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10;
+}
+
+nav a:hover{
+    color: rgba(128, 80, 190, 0.869);
+}
+
+/* --------- CONTACTO ----------- */
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+header{
+    display: flex;
+    height: 70;
+    background-color: rgba(76, 76, 76, 0.666);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 90; height: 90;
+    margin: 5px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10;
+}
+
+nav a:hover{
+    color: rgba(128, 80, 190, 0.869);
+}

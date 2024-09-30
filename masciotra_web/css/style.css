@@ -182,8 +182,8 @@ input{
 /******INICIO-ANIMACIÓN******/
 
 #brick {
-  width: 40px;
-  height: 20px;
+  width: 10%;
+  height: 100%;
   background: #26095c;
   position: relative;
   cursor: pointer;
@@ -192,18 +192,22 @@ input{
 
 #path {
   outline: 3px solid #9254c8;
-  width: 540px;
-  height: 20px;
+  width: 39%;
+  height: 5%;
   align-content: center;
+  text-align: center;
+  position: relative;
+  margin-left: 34%;
 }
 
 .textb{
   margin-bottom: 4px;
+  text-align: center;
 }
 
 .pinicio{
-  margin-left: 90px;
-  text-align: justify;
+  text-align: center;
+  position: relative;
 }
 
 /*****IMGENES-TABLA******/
@@ -219,7 +223,7 @@ input{
 }
 
 table{
-  margin-left: 3%;
+  margin-left: 47%;
   position: relative;
   display: flex;
 }
@@ -280,10 +284,11 @@ footer{
 
 /************PHP*************/
 .ok {
+  margin-top: 20%;
 	text-align: center;
 	width: 100%;
 	padding: 12px;
-	background-color: rgba(13, 79, 17, 0.794);
+	background-color: rgba(13, 79, 17, 0.603);
 	color: #fff
 }
 .bad {
@@ -292,6 +297,11 @@ footer{
 	padding: 12px;
 	background-color: rgba(92, 12, 12, 0.845);
 	color: #fff
+}
+
+.reb{
+  background: url(../img/index_inicio.jpg);
+  background-size: cover
 }
 
 h1{
@@ -304,4 +314,6 @@ h1{
 .aphp{
   font-family: sans-serif;
   text-align: center;
+  margin-left: 47%;
+  position: relative;
 }

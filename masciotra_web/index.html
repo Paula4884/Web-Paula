@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+  <script src="https://js.cx/libs/animate.js"></script>
+  <link rel="stylesheet" href="../masciotra_web/css/style.css">
+  <link rel="icon" href="../masciotra_web/img/logo_pes.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <a href="index.html" class="logo">
+        <img src="img/logo_mm.png" alt="logo de la compañia" class="logo-img">
+        <h2 class="logo-nombre">Mascio Music</h2>
+      </a>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos/index.html">Productos</a></li>
+        <li><a href="eventos/index.html">Evento</a></li>
+        <li><a href="inicio_sesion/index.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section></section>
+  <div class="pinicio">
+    <p><b>Bienvenidos a esta casa de baterias</b></p>
+    <p> Este pagina está diseñado <b> por un alumno de la UB</b></p>
+    <p>Esperemos que encuentren lo que estan buscando</p>
+  </div>
+  <br>
+  <p class="textb">⬇⬇⬇ Haga click en el cuadrado</p>
+  <div id="path">
+    <div id="brick"></div>
+  </div>              
+  <script>
+    function makeEaseInOut(timing) {
+      return function(timeFraction) {
+        if (timeFraction < .5)
+          return timing(2 * timeFraction) / 2;
+        else
+          return (2 - timing(2 * (1 - timeFraction))) / 2;
+      }
+    }
+                
+    function bounce(timeFraction) {
+      for (let a = 0, b = 1; 1; a += b, b /= 2) {
+        if (timeFraction >= (7 - 4 * a) / 11) {
+          return -Math.pow((11 - 6 * a - 11 * timeFraction) / 4, 2) + Math.pow(b, 2)
+        }
+      }
+    }
+                
+    let bounceEaseInOut = makeEaseInOut(bounce);
+                
+    brick.onclick = function() {
+      animate({
+        duration: 3000,
+        timing: bounceEaseInOut,
+        draw: function(progress) {
+          brick.style.left = progress * 500 + 'px';
+        }
+      });
+    };
+  </script>
+</body>
+</html>

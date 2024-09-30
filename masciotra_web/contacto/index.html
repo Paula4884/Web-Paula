@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="../img/logo_pes.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <a href="../index.html" class="logo">
+        <img src="../img/logo_mm.png" alt="logo de la compañia" class="logo-img">
+        <h2 class="logo-nombre">Mascio Music</h2>
+      </a>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../productos/index.html">Productos</a></li>
+        <li><a href="../eventos/index.html">Evento</a></li>
+        <li><a href="../inicio_sesion/index.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section></section>
+    <form id="form">
+        <p class="pregistro"><b>Registrate</b></p><br>
+        <label for="fname"></label>
+        <input type="text" id="fname" name="fname" placeholder="Nombre" required><br>
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lname" placeholder="Apellido" required><br>
+        <label for="fecha"></label>
+        <input type="date" id="fecha" name="fecha" placeholder="Fecha de nacimiento" required><br>                
+        <label for="mail"></label>
+        <input type="email" id="mail" name="mail" placeholder="Correo electrónico" required><br>
+        <label for="telefono"></label>                
+        <input type="tel" id="telefono" name="tel" placeholder="Teléfono" required><br>
+        <label for="contraseña"></label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="Creá una contraseña" required><br>
+        <input type="submit" class="sent" placeholder="Eviar"><br>
+        <br>
+        <p>Si ya tenés cuenta <a class="sesion" href="../inicio_sesion/index.html">Iniciar sesión</a></p>
+    </form>
+    <p class="warning" id="warning"></p>
+    <script src="../js/js.js"></script>
+    <footer>
+      <p class="pfooter">También podes encontrarnos en:</p>
+      <div class="pie">
+            <a href="https://www.instagram.com/chloegamer?igsh=MTB2MnRpcjhiOTk0aQ==" class="apie">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100046657294017" class="apie">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://x.com/Chloegamer4?t=-Rf9RC1morEBJY0UNmahNw&s=09" class="apie">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="https://github.com/Paula4884/Web-Paula.git" class="apie">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+      </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

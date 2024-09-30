@@ -206,7 +206,7 @@ input{
   text-align: justify;
 }
 
-/*****IMGENES******/
+/*****IMGENES-TABLA******/
 
 .imag{
   display: grid;
@@ -216,6 +216,12 @@ input{
 
 .imgb{
   border: 2px solid; color: #9254c8;
+}
+
+table{
+  margin-left: 3%;
+  position: relative;
+  display: flex;
 }
 
 /*****PRODUCTOS******/

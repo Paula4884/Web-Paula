@@ -229,11 +229,6 @@ table{
 }
 
 /*****PRODUCTOS******/
-h4{
-  text-align: justify;
-  margin-left: 28%;
-  position: relative;
-}
 
 textarea{
   display: block;
@@ -248,6 +243,10 @@ button{
   margin-top: 10px;
   margin-left: 30px;
   margin-left: 25%;
+  position: relative;
+}
+
+.divpro{
   position: relative;
 }
 
